@@ -1,0 +1,15 @@
+(executable
+ (public_name delve)
+ (name delve)
+ (package delve)
+ (libraries
+  dns-client-eio
+  mtime.clock.os
+  eio_main
+  domain-name
+  fmt
+  cmdliner
+  fmt.cli
+  logs.cli
+  logs.fmt
+  fmt.tty))
